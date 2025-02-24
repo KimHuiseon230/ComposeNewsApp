@@ -1,0 +1,71 @@
+### Android ###
+*.iml
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# Android Studio Generated Files
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Gradle 관련 파일
+gradle-app.setting
+**/build/
+!src/**/build/
+.gradle-task-name-cache
+
+# Local Configuration Files
+/local.properties
+google-services.json
+
+# Java/Kotlin Compiled Files
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.dex
+
+# Signing files
+*.jks
+*.keystore
+
+# Virtual Machine Crash Logs
+hs_err_pid*
+replay_pid*
+
+# IntelliJ / Android Studio 설정 파일
+.idea/dictionaries
+.idea/tasks.xml
+.idea/httpRequests
+.idea/misc.xml
+.idea/vcs.xml
+
+# Log/OS Files
+*.log
+.DS_Store
+
+# Proguard Files
+proguard/
+
+# NDK
+obj/
+
+# CMake
+cmake-build-*/
+
+# Gradle Wrapper Files (필요한 경우 제외)
+!gradle-wrapper.jar
+!gradle-wrapper.properties
